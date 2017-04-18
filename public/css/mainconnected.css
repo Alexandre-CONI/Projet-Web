@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'learning_curvebold';
+    src: url('../fonts/learning_curve_bold_ot_ps-webfont.woff2') format('woff2'),
+         url('../fonts/learning_curve_bold_ot_ps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dk_colporteur_fatregular';
+    src: url('../fonts/dk_colporteur_fat-webfont.woff2') format('woff2'),
+         url('../fonts/dk_colporteur_fat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'feel_memedium';
+    src: url('../fonts/feel_me-webfont.woff2') format('woff2'),
+         url('../fonts/feel_me-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arizoniaregular';
+    src: url('../fonts/arizonia-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arizonia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'filigrandemo';
+    src: url('../fonts/filigrandemo-webfont.woff2') format('woff2'),
+         url('../fonts/filigrandemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h4{
+font-family: 'feel_memedium', Arial, serif; 
+font-size : 30px;
+color: white;
+    
+}
+
+@font-face {
+    font-family: 'webfontregular';
+    src: url('../fonts/goblins-webfont.woff2') format('woff2'),
+         url('../fonts/goblins-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#premierenav{
+background-image: -webkit-linear-gradient(top,#c2242a 0,#e0000b 100%);
+    
+}
+
+.modal-header{
+background-color: #e01616;    
+    
+}
+
+
+#mainContent{
+ padding: 10px;    
+    
+}
+
+.modal{
+    
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;    
+    
+}
+
+#home{
+color: black;
+    
+}
+
+.jumbotron{
+background-image: url('../img/banniere.jpg');    
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.jumbotron h1{
+
+font-family: 'learning_curvebold', Arial, serif; 
+font-size : 100px;
+
+    
+}
+
+.navbar-brand{
+    font-size: 36px;
+}
+
+.navbar-brand p {
+    
+font-family: 'feel_memedium', Arial, serif;    
+color: #eee;
+font-size : 50px;
+    
+}
+
+#content {
+border: 1px Solid orange;     
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+    
+}
+
+@media (min-width: 768px) {
+    
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  
+
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  footer{
+ 
+      
+  }
+  
+  .sidebar-nav{
+    margin-top: 10px;
+    border: 2px Solid black;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #aa6d0b;
+  }
+  
+  .ul li a{
+    background-color: yellow;  
+      
+  }
+
+
+.navbar, .dropdown-menu{
+background:rgba(255,255,255,0.25);
+border: none;
+
+}
+
+.nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
+  border-bottom: 3px solid transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  border-bottom: 3px solid transparent;
+  background: none;
+}
+.navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-toggle{
+ color: #fff;
+}
+.dropdown-menu{
+      -webkit-box-shadow: none;
+    box-shadow:none;
+}  
+  
+}
+
+
+

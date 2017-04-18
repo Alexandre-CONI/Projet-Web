@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+#rouge {
+    height: 4rem;
+    background-color: rgba(194, 36, 42, 1);
+}
+
+.logo img {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+#blanc {
+    height: 12rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#logo {
+    width: 12rem;
+    height: 12rem;
+}
+
+#titre {
+    text-align: center;
+    font-weight: 700;
+}
+
+#tete {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.button button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 0 0.7rem 0;
+    height: 3.5rem;
+    font: bold 13px Arial;
+    background: white;
+    color: #555;
+    border-radius: 2px;
+    width: 16rem;
+    border: 1px solid rgba(121, 121, 121, 1);
+}
+
+.button button:hover {
+    background-color: rgba(121, 121, 121, 1);
+    color: white;
+}
+
+#menu {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgba(121, 121, 121, 1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#menu a:hover {
+    text-decoration: none;
+    color: black;
+}
+#footblanc{
+    height: 12rem;
+    width: 100%;
+    background-color: white;
+    bottom: 0px;
+    position: absolute;
+}
+.CESI img{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}

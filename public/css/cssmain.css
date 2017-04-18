@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'learning_curvebold';
+    src: url('../fonts/learning_curve_bold_ot_ps-webfont.woff2') format('woff2'),
+         url('../fonts/learning_curve_bold_ot_ps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arizoniaregular';
+    src: url('../fonts/arizonia-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arizonia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.jumbotron{
+background-image: url('../public/img/test.jpg');    
+
+}
+
+.h1{
+    
+font-style: 50px;
+color : green; 
+    
+}
+
+.navbar-brand{
+    font-size: 36px;
+}
+
