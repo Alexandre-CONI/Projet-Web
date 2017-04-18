@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link href="/../Projet-Web/public/css/bootstrap.min.css" rel="stylesheet">
@@ -7,7 +7,8 @@
     @yield('head')
 </head>
 
-<div class="container-fluid header">
+
+<div class="container-fluid">
     <div id="rouge" class="row">
         <div class="col-md-offset-8 col-md-2 logo">
             <img id="facebook" src="/../Projet-Web/public/img/facebook.png" alt="facebook">
@@ -38,11 +39,15 @@
             <img id="tete" src="/../Projet-Web/public/img/tete.png" alt="tete">
         </div>
     </div>
-</div>
 
-@yield('contenu')
 
-<div class="container-fluid footer">
+    <div id="Contenu" class="row">
+
+            @yield('contenu')
+
+    </div>
+
+
     <div id="footblanc" class="row">
         <div class="col-md-offset-3 col-md-6 CESI">
             <img id="CESIEN" src="/../Projet-Web/public/img/CESIEN.png" alt="CESIEN">

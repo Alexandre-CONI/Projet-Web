@@ -2,11 +2,6 @@ body {
     background-color: rgba(242, 242, 242, 1);
 }
 
-.header {
-    position: fixed;
-    width: 100%;
-}
-
 #rouge {
     height: 4rem;
     background-color: rgba(194, 36, 42, 1);
@@ -72,10 +67,10 @@ body {
 }
 #footblanc{
     height: 12rem;
-    width: 100%;
     background-color: white;
-    bottom: 0px;
-    position: absolute;
+    bottom: 0rem;
+    position: fixed;
+    width: 100%;
 }
 .CESI img{
     margin-top: 1.5rem;
