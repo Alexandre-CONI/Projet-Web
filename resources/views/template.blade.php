@@ -7,7 +7,7 @@
     @yield('head')
 </head>
 
-
+<body>
 <div class="container-fluid">
     <div id="rouge" class="row">
         <div class="col-md-offset-8 col-md-2 logo">
