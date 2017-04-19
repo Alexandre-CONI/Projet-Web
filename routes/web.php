@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('template');
-});
+Route::get('/', 'Controller@template');
+
+Route::resource('inscription','inscriptioncontroller');
