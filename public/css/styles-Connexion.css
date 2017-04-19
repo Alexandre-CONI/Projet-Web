@@ -1,7 +1,10 @@
-#Inscrire {
+#TitreConnexion {
     text-align: center;
 }
-
+#H2 {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
 .MotListe {
     margin-left: 10rem;
 }
@@ -12,7 +15,6 @@
     list-style-type: none;
     color: rgba(121, 121, 121, 1);
     font-size: 1.6rem;
-
 }
 
 .entre li {
@@ -24,50 +26,10 @@
 .entre {
     margin-top: 1.1rem;
 }
-
-.liste {
-    margin-left: 2rem;
-}
-
-#date {
-    height: 2.2rem;
-}
-
-#ajoute {
-    margin-left: 5rem;
-    height: 2.5rem;
-    font: bold 13px Arial;
-    background-color: rgba(194, 36, 42, 1);
-    color: white;
-    width: 25rem;
-    border: 1px solid rgba(121, 121, 121, 1);
-}
-
-#ajoute:hover {
-    background-color: rgba(121, 121, 121, 1);
-}
-
-#cond {
-    margin-left: 14rem;
-    color: rgba(121, 121, 121, 1);
-}
-
-#img {
-    margin-left: 5rem;
-    margin-top: 1.1rem;
-}
-
-#H2 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-#condition {
-    margin-top: 2em;
-}
-#Accepter{
+#Inscrire{
     margin : auto;
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 #insription{
     height: 2.5rem;
@@ -79,4 +41,15 @@
 }
 #insription:hover {
     background-color: rgba(121, 121, 121, 1);
+}
+#Connecter{
+    margin : auto;
+}
+#Connexion{
+    height: 2.5rem;
+    font: bold 13px Arial;
+    background-color: rgba(194, 36, 42, 1);
+    color: white;
+    width: 33rem;
+    border: 1px solid rgba(121, 121, 121, 1);
 }

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link href="/../Projet-Web/public/css/bootstrap.min.css" rel="stylesheet">
@@ -41,11 +40,9 @@
     </div>
 
 
-    <div id="Contenu" class="row">
 
             @yield('contenu')
 
-    </div>
 
 
     <div id="footblanc" class="row">
